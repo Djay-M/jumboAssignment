@@ -7,7 +7,7 @@ const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 
 var app = require("./app");
-var debug = require("debug")("questions6:server");
+var debug = require("debug")("jumboAssignment:server");
 var { createServer } = require("http");
 const { Server } = require("socket.io");
 const { verifyJwt } = require("./api/config/auth.config");
